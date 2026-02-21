@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-bg: #0B0B0B;
+  --color-accent-red: #E10600;
+  --color-secondary-red: #FF3B3B;
+  --color-text-primary: #FFFFFF;
+  --color-text-dark: #111111;
+  --color-glass: rgba(255, 255, 255, 0.08);
+  --color-glass-dark: rgba(0, 0, 0, 0.4);
+  --color-glass-red: rgba(225, 6, 0, 0.15);
+  --color-white: var(--foreground);
+  --color-black: var(--background);
+}
+
+:root {
+  --background: #0B0B0B;
+  --foreground: #FFFFFF;
+}
+
+.light {
+  --background: #ffffff;
+  --foreground: #0B0B0B;
+}
+
+.dark {
+  --background: #0B0B0B;
+  --foreground: #FFFFFF;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Base custom styles */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #FFFFFF, #999999);
+}
+
+.dark .text-gradient {
+  background-image: linear-gradient(to right, #FFFFFF, #999999);
+}
+
+.glass-card {
+  background: var(--color-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.glass-card-dark {
+  background: var(--color-glass-dark);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.neon-glow {
+  box-shadow: 0 0 15px rgba(225, 6, 0, 0.5), 0 0 30px rgba(225, 6, 0, 0.3);
+}
+
+.hover-neon-glow:hover {
+  box-shadow: 0 0 20px rgba(225, 6, 0, 0.6), 0 0 40px rgba(225, 6, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
