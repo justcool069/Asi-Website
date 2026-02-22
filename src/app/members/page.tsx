@@ -6,14 +6,16 @@ import { Search, Linkedin, Filter } from "lucide-react";
 
 // Mock Data
 const membersList = [
-    { id: 1, name: "Arvind", role: "President", type: "Core Team", image: "https://i.pravatar.cc/300?img=11", linkedin: "#" },
-    { id: 2, name: "Sneha", role: "Vice President", type: "Core Team", image: "https://i.pravatar.cc/300?img=5", linkedin: "#" },
-    { id: 3, name: "Rahul", role: "Lead Developer", type: "Core Team", image: "https://i.pravatar.cc/300?img=8", linkedin: "#" },
-    { id: 4, name: "Priya", role: "Events Head", type: "Core Team", image: "https://i.pravatar.cc/300?img=9", linkedin: "#" },
-    { id: 5, name: "Karan", role: "Active Member", type: "Members", image: "https://i.pravatar.cc/300?img=12", linkedin: "#" },
-    { id: 6, name: "Anjali", role: "Active Member", type: "Members", image: "https://i.pravatar.cc/300?img=20", linkedin: "#" },
-    { id: 7, name: "Vikram", role: "Active Member", type: "Members", image: "https://i.pravatar.cc/300?img=33", linkedin: "#" },
-    { id: 8, name: "Nisha", role: "Active Member", type: "Members", image: "https://i.pravatar.cc/300?img=40", linkedin: "#" },
+    { id: 1, name: "Varman Karthik J", role: "President", type: "Core Team", image: "https://ui-avatars.com/api/?name=Varman+Karthik+J&background=E10600&color=fff", linkedin: "#" },
+    { id: 2, name: "Sureka N", role: "Treasurer", type: "Core Team", image: "https://ui-avatars.com/api/?name=Sureka+N&background=E10600&color=fff", linkedin: "#" },
+    { id: 3, name: "Varun S", role: "Vice President", type: "Core Team", image: "https://ui-avatars.com/api/?name=Varun+S&background=E10600&color=fff", linkedin: "#" },
+    { id: 4, name: "Yogeswaran D", role: "Joint Secretary", type: "Core Team", image: "https://ui-avatars.com/api/?name=Yogeswaran+D&background=E10600&color=fff", linkedin: "#" },
+    { id: 5, name: "Sarva Priya S", role: "Secretary", type: "Core Team", image: "https://ui-avatars.com/api/?name=Sarva+Priya+S&background=E10600&color=fff", linkedin: "#" },
+    { id: 6, name: "Sree Harshini G", role: "Board of Head - Technical", type: "Core Team", image: "https://ui-avatars.com/api/?name=Sree+Harshini+G&background=E10600&color=fff", linkedin: "#" },
+    { id: 7, name: "Surya R", role: "Board of Head - Design", type: "Core Team", image: "https://ui-avatars.com/api/?name=Surya+R&background=E10600&color=fff", linkedin: "#" },
+    { id: 8, name: "Sanjay Kumar T", role: "Board of Head - Management", type: "Core Team", image: "https://ui-avatars.com/api/?name=Sanjay+Kumar+T&background=E10600&color=fff", linkedin: "#" },
+    { id: 9, name: "Santha Kumar L", role: "Board of Head - Media", type: "Core Team", image: "https://ui-avatars.com/api/?name=Santha+Kumar+L&background=E10600&color=fff", linkedin: "#" },
+    { id: 10, name: "Yokesh R", role: "Cluster Coordinator", type: "Core Team", image: "https://ui-avatars.com/api/?name=Yokesh+R&background=E10600&color=fff", linkedin: "#" }
 ];
 
 export default function MembersPage() {
